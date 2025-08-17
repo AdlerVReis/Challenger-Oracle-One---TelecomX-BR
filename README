@@ -1,0 +1,79 @@
+# TelecomX BR
+
+Este projeto tem como objetivo realizar a **extração, transformação e análise exploratória** de dados da empresa fictícia **TelecomX**, no contexto de um desafio de ciência de dados.  
+
+O notebook realiza todo o pipeline de dados, desde a coleta da fonte até a análise visual, utilizando bibliotecas do ecossistema Python.
+
+------------------------------------------------------------
+
+## Estrutura do Projeto
+
+- TelecomX_BR.ipynb → Notebook principal contendo todo o fluxo:
+  - Extração dos dados em formato JSON.
+  - Transformação e limpeza dos dados (tratamento de nulos, duplicados e normalização).
+  - Análises exploratórias.
+  - Visualizações interativas com Plotly.
+
+------------------------------------------------------------
+
+## Dependências
+
+Para rodar o projeto, você precisa ter o Python 3.8+ e instalar as bibliotecas necessárias.  
+Recomenda-se utilizar um ambiente virtual (venv ou conda).
+
+Instalação das dependências:
+
+    pip install -r requirements.txt
+
+Caso não tenha o arquivo requirements.txt, você pode instalar manualmente:
+
+    pip install pandas requests plotly
+
+------------------------------------------------------------
+
+## Como Executar
+
+1. Clone este repositório:
+
+       git clone https://github.com/SEU_USUARIO/TelecomX_BR.git
+       cd TelecomX_BR
+
+2. Abra o Jupyter Notebook:
+
+       jupyter notebook TelecomX_BR.ipynb
+
+3. Execute as células em ordem.  
+   O notebook irá:
+   - Coletar dados da API/JSON.
+   - Processar e tratar inconsistências.
+   - Exibir análises e gráficos interativos.
+
+------------------------------------------------------------
+
+## Resultados Esperados
+
+- Dataset estruturado e limpo pronto para análise.
+- Relatórios de:
+  - Registros duplicados.
+  - Valores nulos e campos em branco.
+- Gráficos interativos para facilitar a visualização dos dados.
+
+------------------------------------------------------------
+
+## Possíveis Problemas
+
+- Conexão com a internet é necessária, pois os dados são carregados via `requests` de uma URL externa.
+- Se a URL da fonte de dados mudar ou for removida, será necessário atualizar o link no notebook.
+
+------------------------------------------------------------
+
+## Contribuições
+
+Sinta-se à vontade para abrir *issues* ou enviar *pull requests* com melhorias, correções e novas análises.
+
+------------------------------------------------------------
+
+## Licença
+
+Este projeto é de uso livre para fins acadêmicos e profissionais.  
+Verifique a licença do repositório original dos dados antes de redistribuir.
